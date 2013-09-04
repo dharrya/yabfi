@@ -24,5 +24,9 @@
     <psi.referenceContributor implementation="com.dharrya.clickable.components.ComponentSrcContributor"/>
     <psi.referenceContributor implementation="com.dharrya.clickable.components.ComponentTemplateContributor"/>
     <!-- Add your extensions here -->
+
+  <localInspection shortName="Eval" bundle="messages.PropertiesBundle" key="dharrya.general.undefined.variable.inspection.display.name"
+                   groupKey="dharrya.general.undefined.variable.inspection.group.display.name" enabledByDefault="true" level="WARNING"
+                   implementationClass="com.dharrya.inspections.general.UndefinedVariableInspection"/>
 </extensions>
 </idea-plugin>
